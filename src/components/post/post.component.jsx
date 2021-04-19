@@ -6,7 +6,8 @@ export class Post extends React.Component {
         console.log( 'Post.constructor()' );
 
         super();
-
+        console.log('POST context', props.staticContext)
+        console.log('POST window.initial_state', window.initial_state)
         // component state
         if( props.staticContext ) {
             this.state = {
