@@ -4,6 +4,7 @@ React server-side rendering sample project.
 ## Running the SSR
 
 - `npm install`
+- `npm run build` - build the front-end (currently need to rebuild each time when changes are done)
 - `npm run start:ssr`
 - Open localhost:9000
 
